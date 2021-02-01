@@ -9,7 +9,7 @@ global Lx;  global Ly;
 Lx=50;
 Ly=50;
 dt_desired = min(Lx/Nx,Ly/Ny)/18;
-plotoption = 50;
+plotoption = inf;
 p = problem_setup_two_droplets(Nx,Ny,Lx,Ly,Gam,dt_desired);
 depth =0;
 switch depth
